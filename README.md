@@ -3,7 +3,7 @@
 Live Chat is a simple real-time chat app built with **React** and **Firebase Firestore**.  
 Users can enter their name and start sending messages instantly.
 
-> 🔗 **Live demo:** [live-chat-mu.vercel.app](https://live-chat-mu.vercel.app/)
+> 🔗 **Live demo:** [live-chat](https://live-chat-mu.vercel.app/)
 
 ## Features
 
