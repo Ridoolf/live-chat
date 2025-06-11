@@ -1,12 +1,31 @@
-# React + Vite
+# Live Chat 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Chat is a simple real-time chat app built with **React** and **Firebase Firestore**.  
+Users can enter their name and start sending messages instantly.
 
-Currently, two official plugins are available:
+> 🔗 **Live demo:** [Live Chat on GitHub](https://github.com/Ridoolf/live-chat)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Send and receive messages in real time
+- Firebase Firestore integration
+- Auto-scroll to latest message
+- Random color for each user name
+- Simple and clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How it works
+
+- When you enter your name, you're able to join the chat.
+- Messages are saved in Firebase with a timestamp.
+- All connected users see new messages instantly.
+- Each username is given a unique color using HSL based on a hash function.
+
+## Tech Stack
+
+- **React** – Frontend UI
+- **Firebase Firestore** – Realtime database
+- **CSS** – For styling
+
+## Preview
+
+![Live Chat Screenshot](https://via.placeholder.com/800x400?text=Add+a+screenshot+here)
