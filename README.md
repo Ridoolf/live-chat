@@ -28,4 +28,4 @@ Users can enter their name and start sending messages instantly.
 
 ## Preview
 
-![Live Chat Screenshot](https://via.placeholder.com/800x400?text=Add+a+screenshot+here)
+![Live Chat](https://live-chat-mu.vercel.app/)
